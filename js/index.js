@@ -1,10 +1,6 @@
-function foo() {
-    return 1;
-}
+console.log(foo);
+console.log(bar);
 
-function bar() {
-    var a = foo();
-    console.log(a);
-}
+function foo() {}
 
-bar();
+var bar = function() {};
