@@ -1,6 +1,5 @@
 console.log(foo);
-console.log(bar);
-
 function foo() {}
 
-var bar = function() {};
+var foo = 1;
+console.log(foo);
