@@ -1,5 +1,15 @@
-console.log(foo);
-function foo() {}
+var obj ={
+    name:'victor',
+    printName: function () {
+        console.log(this.name);
+    }
+};
 
-var foo = 1;
-console.log(foo);
+obj.printName();
+
+
+var o= {
+    name: 'Jenny',
+};
+
+obj.printName.bind(o)();
