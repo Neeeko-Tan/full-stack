@@ -1,0 +1,7 @@
+#deploy node
+/deploy/node_modules
+/deploy/package-lock.json
+
+#express node
+/express/npm/node_modules
+/express/npm/package-lock.json
