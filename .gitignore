@@ -1,6 +1,7 @@
 #deploy node
 /deploy/node_modules
 /deploy/package-lock.json
+/deploy/.env
 
 #express node
 /express/npm/node_modules
